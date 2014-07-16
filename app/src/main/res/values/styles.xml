@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBarTransparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!--<item name="android:windowNoTitle">true</item>-->
+
+        <!-- styles for PagingSliderTabStrip -->
+        <item name="pstsIndicatorColor">#fff</item>
+        <item name="pstsUnderlineColor">#fff</item>
+        <item name="pstsDividerColor">#0fff</item>
+        <item name="pstsIndicatorHeight">4dp</item>
+        <item name="pstsUnderlineHeight">1px</item>
+        <item name="pstsDividerPadding">0dp</item>
+        <item name="pstsTabPaddingLeftRight">12dp</item>
+        <item name="pstsScrollOffset">96dp</item>
+        <item name="pstsTabBackground">@drawable/tab_selector</item>
+        <item name="pstsTextAllCaps">false</item>
+    </style>
+
+
+    <style name="ActionBarTransparent" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <!--<item name="android:backgroundStacked"></item>-->
+    </style>
+
+    <style name="TextAppearanceOverlay">
+        <item name="android:background">@drawable/overlay_gradient</item>
+    </style>
+
+    <style name="TextAppearanceOverlay.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+</resources>
