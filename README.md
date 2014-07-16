@@ -3,6 +3,8 @@ itch-android
 
 A Play Newsstand-style app for browsing subreddit galleries on Imgur
 
+![Alt demo](itch.gif)
+
 Layout
 ------
 - Multiple infinite-scrolling ListViews in a swipeable ViewPager
