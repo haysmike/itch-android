@@ -150,7 +150,7 @@ public class HomeActivity extends Activity {
                     header.clearAnimation();
                     header.setTranslationY(translation);
                 } else if (header.getTranslationY() != translation) {
-                    TranslateAnimation headerAnimation = new TranslateAnimation(0, 0, header.getTranslationY(), translation);
+                    TranslateAnimation headerAnimation = new TranslateAnimation(0, 0, 0, translation - header.getTranslationY());
                     headerAnimation.setDuration(100);
                     headerAnimation.setAnimationListener(new Animation.AnimationListener() {
                         @Override
